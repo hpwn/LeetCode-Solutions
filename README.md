@@ -28,7 +28,7 @@ Now, let's get your personal LeetCode repository started! Here's a step-by-step 
 
 3. **Open Your Repo**: After cloning, VSCode will ask if you want to open the repository. Go for it!
 
-4. **Add a Remote**: If you've started locally, add a remote pointing to your GitHub repo. Open the terminal in VSCode (`Ctrl+` `) and type: git remote add origin YOUR_REPO_URL
+4. **Add a Remote**: If you've started locally, add a remote pointing to your GitHub repo. Open the terminal in VSCode (`Ctrl+``) and type: git remote add origin YOUR_REPO_URL
 
 5. **Start Adding Solutions**: Now, whenever you solve a problem on LeetCode, add the solution to this repository. You can create a directory for each problem or organize it however you like – unleash your inner organizer! 📁✨
 
