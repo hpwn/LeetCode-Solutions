@@ -1,6 +1,3 @@
-
-# README.md for LeetCode Solutions Repo
-
 ## 🚀 Welcome to My LeetCode Journey! 🌌
 
 Hello fellow coders! 👋 Welcome to my quirky and fun repository where I store all my solutions to LeetCode problems. Whether you're here to explore, learn, or just for a good laugh, you're in the right place! Let's dive into the magical world of coding challenges together. 🧙‍♂️✨
