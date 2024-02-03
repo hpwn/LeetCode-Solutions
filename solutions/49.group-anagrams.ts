@@ -28,4 +28,6 @@ function groupAnagrams(strs: string[]): string[][] {
   // This is equivalent to Array.from(strMap.values())
   return [...strMap.values()];
 }
+
+// better solution is letter array map instead of sorted map
 // @lc code=end
