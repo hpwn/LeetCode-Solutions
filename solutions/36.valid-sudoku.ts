@@ -23,6 +23,7 @@ function isValidSudoku(board: string[][]): boolean {
     }
   }
 
+  chk = board[0].map(() => 0);
   // cols
   for (let i = 0; i < 9; i++) {
     chk = board[0].map(() => 0);
@@ -38,6 +39,7 @@ function isValidSudoku(board: string[][]): boolean {
     }
   }
 
+  chk = board[0].map(() => 0);
   // squares
   for (let k = 0; k < 3; k++) {
     for (let w = 0; w < 3; w++) {
