@@ -1,17 +1,28 @@
-const { isValidSudoku: test } = require("./solutions/36.valid-sudoku");
-// Update the import path as needed
+const { Solution } = require("./solutions/271.encode-and-decode-strings"); // Adjust the path as needed
 
-// Define your test case
-const board: string[][] = [
-  ["5", "3", ".", ".", "7", ".", ".", ".", "."],
-  ["6", ".", ".", "1", "9", "5", ".", ".", "."],
-  [".", "9", "8", ".", ".", ".", ".", "6", "."],
-  ["8", ".", ".", ".", "6", ".", ".", ".", "3"],
-  ["4", ".", ".", "8", ".", "3", ".", ".", "1"],
-  ["7", ".", ".", ".", "2", ".", ".", ".", "6"],
-  [".", "6", ".", ".", ".", ".", "2", "8", "."],
-  [".", ".", ".", "4", "1", "9", ".", ".", "5"],
-  [".", ".", ".", ".", "8", ".", ".", "7", "9"],
-];
-// Run and log the result
-console.log(test(board));
+function testEncodeAndDecode() {
+  const solution = new Solution();
+  const examples = [
+    ["neet", "code", "love", "you"],
+    ["we", "say", ":", "yes"],
+    [],
+    ["", "", ""],
+    ["a", "ab", "abc"],
+  ];
+
+  examples.forEach((example, index) => {
+    const encoded = solution.encode(example);
+    const decoded = solution.decode(encoded);
+    console.log(`Example ${index + 1}:`);
+    console.log("Input:", example);
+    console.log("Encoded:", encoded);
+    console.log("Decoded:", decoded);
+    console.log(
+      "Is valid:",
+      JSON.stringify(example) === JSON.stringify(decoded)
+    );
+    console.log("-----------------------------------");
+  });
+}
+
+testEncodeAndDecode();

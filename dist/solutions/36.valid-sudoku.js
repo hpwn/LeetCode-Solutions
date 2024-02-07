@@ -21,6 +21,8 @@ function isValidSudoku(board) {
             }
         }
     }
+    // check transitions! chk wasn't reset!
+    chk = board[0].map(() => 0);
     // cols
     for (let i = 0; i < 9; i++) {
         chk = board[0].map(() => 0);
@@ -35,6 +37,8 @@ function isValidSudoku(board) {
             }
         }
     }
+    // use chk.fil(0)
+    chk = board[0].map(() => 0);
     // squares
     for (let k = 0; k < 3; k++) {
         for (let w = 0; w < 3; w++) {
