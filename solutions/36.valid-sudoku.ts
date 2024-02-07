@@ -40,6 +40,7 @@ function isValidSudoku(board: string[][]): boolean {
     }
   }
 
+  // use chk.fil(0)
   chk = board[0].map(() => 0);
   // squares
   for (let k = 0; k < 3; k++) {
