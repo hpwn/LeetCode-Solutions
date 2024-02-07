@@ -23,6 +23,7 @@ function isValidSudoku(board: string[][]): boolean {
     }
   }
 
+  // check transitions! chk wasn't reset!
   chk = board[0].map(() => 0);
   // cols
   for (let i = 0; i < 9; i++) {
