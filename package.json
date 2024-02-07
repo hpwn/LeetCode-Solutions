@@ -1,0 +1,23 @@
+{
+  "name": "leetcode-solutions",
+  "version": "1.0.0",
+  "description": "added features to debug solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpwn/LeetCode-Solutions.git"
+  },
+  "author": "Hayden Price",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hpwn/LeetCode-Solutions/issues"
+  },
+  "homepage": "https://github.com/hpwn/LeetCode-Solutions#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
