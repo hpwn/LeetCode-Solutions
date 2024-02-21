@@ -10,7 +10,7 @@ function search(nums: number[], target: number): number {
     r = nums.length - 1;
 
   while (l <= r) {
-    let mid = Math.floor((l + r) / 2);
+    let mid = l + Math.floor((r - l) / 2);
     if (nums[mid] == target) {
       return mid;
     } else if (nums[mid] < target) {
